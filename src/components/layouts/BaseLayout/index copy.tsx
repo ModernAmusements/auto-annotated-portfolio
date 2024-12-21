@@ -37,8 +37,21 @@ const BaseLayout: React.FC<BaseLayoutProps> = (props) => {
                         <meta name="viewport" content="width=device-width, initial-scale=1" />
                         {site.favicon && <link rel="icon" href={site.favicon} />}
                     </Head>
-
+                    {site.header && (
+                        <Annotated content={site}>
+                            <Annotated content={site.header}>
+                                <Header {...site.header} />
+                            </Annotated>
+                        </Annotated>
+                    )}
                     {props.children}
+                    {site.footer && (
+                        <Annotated content={site}>
+                            <Annotated content={site.footer}>
+                                <Footer {...site.footer} />
+                            </Annotated>
+                        </Annotated>
+                    )}
                 </div>
             </div>
         </Annotated>

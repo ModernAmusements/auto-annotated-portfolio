@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Florian Nagel - Art Director | 3D Artist
 colors: colors-a
 backgroundImage:
   type: BackgroundImage

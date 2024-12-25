@@ -11,7 +11,6 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-f
     backgroundSize: full
     title: >-
       People speak sometimes about the "bestial" cruelty of man, but that is terribly unjust and offensive to beasts, no animal could ever be so cruel as a man, so artfully, so artistically cruel
@@ -45,7 +44,6 @@ sections:
     type: HeroSection
     actions: []
   - type: ContactSection
-    colors: colors-f
     backgroundSize: full
     title: 'Join me on the visual journey!'
     form:
